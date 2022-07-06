@@ -1,0 +1,5 @@
+hand=open('C:\Users\HP\Desktop\Phython')
+for line in hand:
+   line=linerstrip()
+   if line.find('From:'):
+      print(line)
