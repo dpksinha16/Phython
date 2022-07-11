@@ -1,15 +1,25 @@
-count=dict()
-print("enter line of code")
-line=input()
-words=line.split()
-print("word:", words)
+def main():
+    # YOUR CODE GOES HERE
+    # Please take input and print output to standard input/output (stdin/stdout)
+    # E.g. 'input()/raw_input()' for input & 'print' for output
+    s=int(input())
+    for i in range(n) :
+     n=str(input())
+     
+     a=list(n)
+     vowel =0
+     constant=0
+     for i in range(len(a)):
+        print(a[i])
+        if a[i] == 'A' or 'a' or "e" or 'E' or 'i' or 'I' or 'o' or 'O' or 'U'or 'u' :
+            vowel +=1 
+        else:
+            constant +=1
 
-count=dict()
-for word in words:
-    count[word]=count.get(word,0) +1
-print(count)
+     
 
+     print(vowel,constant) 
 
-days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
-print(days[2])
+if __name__ == '__main__':
+    main()
 
